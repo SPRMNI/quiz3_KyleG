@@ -1,7 +1,7 @@
 window.onload = () => {
   render();
 };
-
+/*load model and change scale rotation*/
 const models = [
   {
     url: './assets/myModel/scene.gltf',
@@ -9,7 +9,7 @@ const models = [
     rotation: '0 225 0'
   },
 ];
-
+/*load model to camera*/
 let modelIndex = 0;
 const setModel = (model, entity) => {
   if (model.position) {
